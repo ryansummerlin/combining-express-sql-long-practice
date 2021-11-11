@@ -23,7 +23,7 @@ columns:
    tree)
 4. `height_ft` which is a number (height of the tree in feet)
 5. `ground_circumference_ft` which is also a number (the distance around the
-6. base of the tree in feet)
+base of the tree in feet)
 
 Write the proper SQL statement to `CREATE` a table named `trees` with the
 columns specified above.
@@ -38,7 +38,7 @@ Start off the database with five of the largest Sequoia trees. Write one or more
 | 1    | General Sherman | Sequoia National Park      | 274.9       | 102.6                     |
 | 2    | General Grant   | Kings Canyon National Park | 268.1       | 107.5                     |
 | 3    | President       | Sequoia National Park      | 240.9       | 93.0                      |
-| 4    | Lincoln         | Sequoia National Park      | 255.8       | 9 8.3                     |
+| 4    | Lincoln         | Sequoia National Park      | 255.8       | 98.3                      |
 | 5    | Stagg           | Private Land               | 243.0       | 109.0                     |
 
 OPTIONAL: If you would like to add more trees, you can use the list provided by 
