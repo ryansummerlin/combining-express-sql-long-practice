@@ -48,7 +48,7 @@ the [National Park Service][nps].
 
 Run `sqlite3` on the database __app.db__.
 
-Run the appropriate SQLite command to **read** the `seed_data.sql` file.
+Run the appropriate SQLite command to **read** the `seed-data.sql` file.
 
 Verify the seeding worked by `SELECT`ing all rows and all columns in the
 `trees` table using the **SQLite CLI**.
