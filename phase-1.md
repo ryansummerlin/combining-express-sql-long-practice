@@ -6,12 +6,12 @@ statements can be saved in an __.sql__ file, then loaded into a database any
 time. Not only does this make it easier to bring new developers onto the team,
 but it also makes it super easy to reset to a working database.
 
-## DROP table(s)
+In this phase, you will write your code in the __server/seed-data.sql__ file.
+
+## Phase 1A: DROP and Create table(s)
 
 Begin by dropping the table, if it exists, so re-running the database seeding
 will work without errors.
-
-## CREATE table(s)
 
 In this project, you need just one table named `trees` with the following
 columns:
@@ -28,7 +28,7 @@ base of the tree in feet)
 Write the proper SQL statement to `CREATE` a table named `trees` with the
 columns specified above.
 
-## INSERT records
+## Phase 1B: INSERT records
 
 Start off the database with five of the largest Sequoia trees. Write one or more
 `INSERT` statements to put these records into the `trees` table.

@@ -26,11 +26,15 @@ const db = new sqlite3.Database(DATA_SOURCE, sqlite3.OPEN_READWRITE);
 ## Step B: Get list of all trees
 
 Create a route handler function for the path `/trees` using the `GET` protocol.
+Note that the trees portion of the path is already handled in the __app.js__
+file, which connects the router for the `trees` API.
 
-Inside your new route handler function, query the database:
+Inside your new route handler function in __server/routes/trees.js__, query the
+database:
 
 * Create a constant to hold the `sql` string to `SELECT` the `id` and `tree` for
-  all rows in the trees table, ordering by the `tree` name
+  all rows in the trees table, ordering by the `tree` height in descending
+  order.
 * Create a constant for `params` which is an empty array
 * Call `db.all()` sending in three parameters
   * the SQL statement
